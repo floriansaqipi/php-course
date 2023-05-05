@@ -12,11 +12,19 @@
 </html>
 
 <?php 
-// $numberList = [];
-// $numberList = [23,23,3,4];
-$numberList = array(23,23,32454,34,2345,"23423","<h1>Hello</h1>");
 
-echo $numberList[0];
-print_r($numberList);
+$number = array("juanita", "maria", "jose");
+print_r($number);
+
+echo "<br>";
+// echo $number[2] . "<br>";
+
+$names = array("first_name" => "Florian", "last_name" => "Saqipi");
+
+print_r($names);
+
+echo "<br>";
+
+echo $names["first_name"] . " " . $names["last_name"];
 
 ?>
